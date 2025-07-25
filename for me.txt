@@ -1,0 +1,73 @@
+/*
+=======================================================================
+==  BAHRAIN TOURISM & EVENTS APP - FINAL SOURCE CODE & SETUP GUIDE  ==
+=======================================================================
+
+This file contains the complete source code for the application.
+To set up and run this project, follow these steps:
+
+---------------------------
+-- PART 1: PREREQUISITES --
+---------------------------
+1. Install Flutter: Make sure you have the Flutter SDK installed on your computer.
+   Follow the official guide at https://flutter.dev/docs/get-started/install
+
+2. Code Editor: Use a code editor like Visual Studio Code or Android Studio with the
+   Flutter and Dart plugins installed.
+
+3. OpenWeatherMap API Key:
+   - Go to https://openweathermap.org/
+   - Create a free account.
+   - Go to the "API keys" tab in your account dashboard.
+   - Copy your default API key. You will need this later.
+
+-----------------------------------
+-- PART 2: FIREBASE PROJECT SETUP --
+-----------------------------------
+1. Create a Firebase Project:
+   - Go to the Firebase Console: https://console.firebase.google.com/
+   - Click "Add project".
+   - Give your project a name (e.g., "Bahrain-Tourism-App") and follow the on-screen steps.
+
+2. Add Flutter App to Firebase:
+   - Install the Firebase CLI tools by running `npm install -g firebase-tools` in your terminal.
+   - In your Flutter project's root directory (where `pubspec.yaml` is), run `flutterfire configure`.
+   - This will guide you to log in and select the Firebase project you just created.
+   - It will automatically generate the `lib/firebase_options.dart` file for you.
+
+3. Enable Firebase Services:
+   - In the Firebase Console, go to your project.
+   - In the left-hand menu, go to "Build" -> "Authentication". Click "Get started" and enable the "Email/Password" sign-in provider.
+   - Go to "Build" -> "Firestore Database". Click "Create database", start in **test mode** for now (you can secure it later), and choose a location.
+
+4. Set up Firestore Database Collections:
+   - In the Firestore Database section, you need to manually create your collections.
+   - Create a collection named `events`.
+   - Create a collection named `tour_guides`.
+   - Create a collection named `users`.
+   - Add some sample documents to `events` and `tour_guides` so you have data to see in the app.
+     See the sample JSON structures in your final report's appendix.
+
+-----------------------------
+-- PART 3: RUNNING THE APP --
+-----------------------------
+1. Open the Project: Open the project folder in VS Code or Android Studio.
+
+2. Replace API Key:
+   - Open the file `lib/services/weather_service.dart`.
+   - Find the line: `static const String _apiKey = 'YOUR_API_KEY_HERE';`
+   - Replace `'YOUR_API_KEY_HERE'` with the API key you got from OpenWeatherMap.
+
+3. Install Dependencies:
+   - Open a terminal in your project's root directory.
+   - Run the command: `flutter pub get`
+
+4. Run the App:
+   - Connect a physical device or start an emulator.
+   - Press F5 in VS Code or click the "Run" button in Android Studio.
+   - The app should now build and launch on your device/emulator.
+
+=======================================================================
+==                        SOURCE CODE BEGINS                         ==
+=======================================================================
+*/

@@ -1,0 +1,218 @@
+{
+  "_comment": "This JSON is structured for import into Cloud Firestore. Each top-level key ('events', 'tour_guides') represents a collection. Each object inside the arrays represents a document in that collection.",
+
+  "events": [
+    {
+      "title": "Bahrain Formula 1 Grand Prix",
+      "description": "Experience the thrill of the opening race of the F1 season at the Bahrain International Circuit in Sakhir. A weekend of high-speed action, entertainment, and concerts.",
+      "imageUrl": "https://placehold.co/600x400/C8102E/FFFFFF?text=F1+Grand+Prix",
+      "category": "Sports",
+      "startDate": {
+        "_seconds": 1742386800,
+        "_nanoseconds": 0
+      },
+      "endDate": {
+        "_seconds": 1742559600,
+        "_nanoseconds": 0
+      },
+      "location": {
+        "name": "Bahrain International Circuit",
+        "address": "Gate 255, Gulf of Bahrain Avenue, Sakhir",
+        "geoPoint": {
+          "_latitude": 26.0325,
+          "_longitude": 50.5104
+        }
+      },
+      "instagramHandle": "#BahrainGP"
+    },
+    {
+      "title": "Bahrain Food Festival",
+      "description": "A vibrant celebration of culinary delights from around the world. Enjoy live cooking stations, food trucks, and family entertainment at Marassi Al Bahrain.",
+      "imageUrl": "https://placehold.co/600x400/FFC107/000000?text=Food+Festival",
+      "category": "Festival",
+      "startDate": {
+        "_seconds": 1738854000,
+        "_nanoseconds": 0
+      },
+      "endDate": {
+        "_seconds": 1739977200,
+        "_nanoseconds": 0
+      },
+      "location": {
+        "name": "Marassi Al Bahrain",
+        "address": "Diyar Al Muharraq, Bahrain",
+        "geoPoint": {
+          "_latitude": 26.3031,
+          "_longitude": 50.6775
+        }
+      },
+      "instagramHandle": "bahrainfoodfestival"
+    },
+    {
+      "title": "ArtBAB - Art Bahrain Across Borders",
+      "description": "A premier art fair showcasing leading international and local artists. Explore contemporary art, sculptures, and installations at the Bahrain Exhibition Centre.",
+      "imageUrl": "https://placehold.co/600x400/007BFF/FFFFFF?text=ArtBAB",
+      "category": "Art & Culture",
+      "startDate": {
+        "_seconds": 1740582000,
+        "_nanoseconds": 0
+      },
+      "endDate": {
+        "_seconds": 1740927600,
+        "_nanoseconds": 0
+      },
+      "location": {
+        "name": "Exhibition World Bahrain",
+        "address": "Building 172, Sakhir, Bahrain",
+        "geoPoint": {
+          "_latitude": 26.0469,
+          "_longitude": 50.5158
+        }
+      },
+      "instagramHandle": "#ArtBAB"
+    },
+    {
+      "title": "Spring of Culture Festival",
+      "description": "A month-long festival celebrating arts and culture with a diverse program of international and local performances, workshops, and exhibitions held at various venues across Bahrain.",
+      "imageUrl": "https://placehold.co/600x400/28A745/FFFFFF?text=Spring+of+Culture",
+      "category": "Art & Culture",
+      "startDate": {
+        "_seconds": 1740943200,
+        "_nanoseconds": 0
+      },
+      "endDate": {
+        "_seconds": 1743621600,
+        "_nanoseconds": 0
+      },
+      "location": {
+        "name": "Various Venues",
+        "address": "Across Bahrain",
+        "geoPoint": {
+          "_latitude": 26.2285,
+          "_longitude": 50.5860
+        }
+      },
+      "instagramHandle": "#SpringOfCulture"
+    },
+    {
+      "title": "Bahrain International Airshow",
+      "description": "A prestigious biennial event for the global aviation industry, featuring spectacular flying displays and a massive exhibition of aerospace technology at the Sakhir Air Base.",
+      "imageUrl": "https://placehold.co/600x400/6C757D/FFFFFF?text=Airshow",
+      "category": "Exhibition",
+      "startDate": {
+        "_seconds": 1763001600,
+        "_nanoseconds": 0
+      },
+      "endDate": {
+        "_seconds": 1763174400,
+        "_nanoseconds": 0
+      },
+      "location": {
+        "name": "Sakhir Air Base",
+        "address": "Sakhir, Southern Governorate",
+        "geoPoint": {
+          "_latitude": 26.0375,
+          "_longitude": 50.5142
+        }
+      },
+      "instagramHandle": "#BIA2026"
+    },
+    {
+      "title": "IRONMAN 70.3 Middle East Championship",
+      "description": "A grueling triathlon that sees athletes from around the world swim, bike, and run through the heart of Bahrain. The race starts and finishes at the iconic Reef Island.",
+      "imageUrl": "https://placehold.co/600x400/DC3545/FFFFFF?text=IRONMAN+70.3",
+      "category": "Sports",
+      "startDate": {
+        "_seconds": 1765186800,
+        "_nanoseconds": 0
+      },
+      "endDate": {
+        "_seconds": 1765215600,
+        "_nanoseconds": 0
+      },
+      "location": {
+        "name": "Reef Island Bahrain",
+        "address": "Manama, Bahrain",
+        "geoPoint": {
+          "_latitude": 26.2442,
+          "_longitude": 50.5832
+        }
+      },
+      "instagramHandle": "#IM703Bahrain"
+    },
+    {
+      "title": "National Day Celebrations",
+      "description": "Join the entire nation in celebrating Bahrain's National Day with spectacular fireworks displays, cultural programs, and family-friendly activities across the country.",
+      "imageUrl": "https://placehold.co/600x400/FFFFFF/C8102E?text=National+Day",
+      "category": "Festival",
+      "startDate": {
+        "_seconds": 1765993200,
+        "_nanoseconds": 0
+      },
+      "endDate": {
+        "_seconds": 1766079600,
+        "_nanoseconds": 0
+      },
+      "location": {
+        "name": "Nationwide",
+        "address": "Kingdom of Bahrain",
+        "geoPoint": {
+          "_latitude": 26.2285,
+          "_longitude": 50.5860
+        }
+      },
+      "instagramHandle": "#BahrainNationalDay"
+    }
+  ],
+
+  "tour_guides": [
+    {
+      "name": "Ahmed Al-Mansoori",
+      "bio": "A certified historian with 15 years of experience. I specialize in the ancient Dilmun civilization, the Bahrain Fort, and the traditional houses of Muharraq. Let's uncover the secrets of Bahrain's rich past together!",
+      "profileImageUrl": "https://placehold.co/400x400/343A40/FFFFFF?text=Ahmed+A.",
+      "languages": ["Arabic", "English"],
+      "rating": 4.9,
+      "isApproved": true
+    },
+    {
+      "name": "Fatima Al-Sadiq",
+      "bio": "Foodie and cultural explorer! Join me on a culinary journey through the Manama Souq, where we'll taste authentic Bahraini street food and learn about the history of the island's spice trade. Custom food and shopping tours are my specialty.",
+      "profileImageUrl": "https://placehold.co/400x400/E83E8C/FFFFFF?text=Fatima+S.",
+      "languages": ["English", "Arabic", "French"],
+      "rating": 4.8,
+      "isApproved": true
+    },
+    {
+      "name": "Yusuf Khalid",
+      "bio": "Adventure seeker! From pearl diving trips and dolphin watching to exploring the Hawar Islands, I offer tours for those who want to experience Bahrain's natural beauty and marine life. All equipment provided.",
+      "profileImageUrl": "https://placehold.co/400x400/17A2B8/FFFFFF?text=Yusuf+K.",
+      "languages": ["English", "Hindi"],
+      "rating": 4.7,
+      "isApproved": true
+    },
+    {
+      "name": "Layla Hassan",
+      "bio": "Art and architecture enthusiast. I provide guided tours of Bahrain's contemporary art galleries, the National Theatre, and explore the unique blend of modern and traditional architecture in the Seef and Adliya districts.",
+      "profileImageUrl": "https://placehold.co/400x400/6F42C1/FFFFFF?text=Layla+H.",
+      "languages": ["English", "Arabic"],
+      "rating": 4.9,
+      "isApproved": true
+    },
+    {
+      "name": "Mohammed Bin Ali",
+      "bio": "Your guide to the Bahraini desert. I lead 4x4 excursions to the Tree of Life, the Royal Camel Farm, and offer unforgettable sunset and stargazing experiences with traditional Bedouin dinners.",
+      "profileImageUrl": "https://placehold.co/400x400/FD7E14/FFFFFF?text=Mohammed+B.",
+      "languages": ["Arabic", "English", "Urdu"],
+      "rating": 4.8,
+      "isApproved": true
+    },
+    {
+      "name": "Sarah Chen",
+      "bio": "Luxury and shopping specialist. Let me guide you through Bahrain's high-end malls, exclusive boutiques, and traditional gold souqs. I offer personalized shopping experiences to help you find the perfect souvenirs and luxury goods.",
+      "profileImageUrl": "https://placehold.co/400x400/20C997/FFFFFF?text=Sarah+C.",
+      "languages": ["English", "Mandarin", "Arabic"],
+      "rating": 4.7,
+      "isApproved": true
+    }
+  ]
+}

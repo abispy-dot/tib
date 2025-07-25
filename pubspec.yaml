@@ -1,0 +1,59 @@
+## =======================================================================
+## FILE: pubspec.yaml
+## DESCRIPTION: This file defines the project's dependencies.
+## MODIFIED: No new dependencies needed for this update.
+## =======================================================================
+# The name of your Flutter package. Must be all lowercase with underscores.
+name: bahrain_tourism_app
+# A brief description of your project.
+description: A comprehensive tourism and events app for the Kingdom of Bahrain.
+
+# Prevents this project from being accidentally published to pub.dev, the public package repository.
+publish_to: 'none'
+
+# The version number of your application, following Semantic Versioning (major.minor.patch+build).
+version: 1.0.0+1
+
+# Specifies the version constraints for the Dart SDK.
+environment:
+  sdk: '>=2.19.0 <3.0.0'
+
+# Lists the external packages your project depends on to function.
+dependencies:
+  # The core Flutter framework.
+  flutter:
+    sdk: flutter
+
+  # Core Firebase functionalities, required for any Firebase service.
+  firebase_core: ^2.15.0
+  # Firebase's NoSQL real-time database.
+  cloud_firestore: ^4.8.4
+  # Firebase service for user authentication (login, signup).
+  firebase_auth: ^4.7.2
+  # Firebase service for push notifications.
+  firebase_messaging: ^14.6.5
+  # The official Google Maps plugin for Flutter.
+  google_maps_flutter: ^2.5.0
+  # A state management library for managing app state.
+  provider: ^6.0.5
+  # A package for formatting dates and numbers.
+  intl: ^0.18.0
+  # A package for launching URLs in the mobile device's browser or other apps.
+  url_launcher: ^6.1.12
+  # A package for making HTTP requests to APIs (like the weather API).
+  http: ^1.1.0
+  # A package that provides a set of iOS-style icons.
+  cupertino_icons: ^1.0.2
+
+# Lists packages that are only needed for development and testing, not for the final app build.
+dev_dependencies:
+  # The core testing library for Flutter.
+  flutter_test:
+    sdk: flutter
+  # A package that provides a set of recommended linting rules to keep code clean.
+  flutter_lints: ^2.0.0
+
+# Flutter-specific configuration.
+flutter:
+  # This line indicates that the project uses Material Design components.
+  uses-material-design: true
